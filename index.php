@@ -105,41 +105,38 @@ include 'includes/header.php';
               <input type="text" class="form-control input-lg" placeholder="输入你的宝宝中文名字"/>
             </div>
             <div class="col-md-4 gender-choice margin-bottom">
-              <label for="gender" style="display:block;"><ruby>性别</ruby></label>
-              <select class="cs-select cs-skin-elastic" name="gender" id="gender" size="1">
-               <span class="caret"></span>
-                <option value="male"><ruby>男</ruby></option>
-                <option value="female"><ruby>女</ruby></option>
-              </select>
-            </div>
-          </div>
-          <div class="row margin-bottom">
-            <div class="col-md-6 margin-bottom">
-              <label><ruby>生日</ruby></label>
-              <input type="text" id="datepicker1" class="form-control input-lg" placeholder="输入你的宝宝生日"/>
-            </div>
-            <div class="col-md-6 margin-bottom">
-              <label><ruby>我想要一个XX国家的名字</ruby></label>
-              <select class="cs-select cs-skin-elastic" name="country">
-                <span class="caret"></span>
-                <option value="" disabled selected>
-									<ruby>国家</ruby>
-                </option>
-                <option value="usa" data-class="flag-usa">
-									<ruby>美国</ruby>
-                </option>
-                <option value="canada" data-class="flag-canada">
-									<ruby>加国</ruby>
-                </option>
-                <option value="england" data-class="flag-england">
-									<ruby>英国</ruby>
-                </option>
-                <option value="australia" data-class="flag-australia">
-									<ruby>澳洲</ruby>
-                </option>
-              </select>
-            </div>
-          </div>
+                          <label for="gender" style="display:block;"><ruby>性别</ruby></label>
+                          <select class="cs-select cs-skin-elastic" name="gender" id="gender" size="1">
+                           <span class="caret"></span>
+                            <option value="male"><ruby>男</ruby></option>
+                            <option value="female"><ruby>女</ruby></option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row margin-bottom">
+                        <div class="col-md-6 margin-bottom">
+                          <label><ruby>生日</ruby></label>
+                          <input type="text" id="datepicker1" class="form-control input-lg" placeholder="输入你的宝宝生日"/>
+                        </div>
+                        <div class="col-md-6 margin-bottom">
+                          <label><ruby>我想要一个XX国家的名字</ruby></label>
+                          <select class="cs-select cs-skin-elastic" name="country">
+                            <span class="caret"></span>
+                            <option value="us" data-class="flag-usa">
+            									<ruby>美国</ruby>
+                            </option>
+                            <option value="ca" data-class="flag-canada">
+            									<ruby>加国</ruby>
+                            </option>
+                            <option value="gb" data-class="flag-england">
+            									<ruby>英国</ruby>
+                            </option>
+                            <option value="au" data-class="flag-australia">
+            									<ruby>澳洲</ruby>
+                            </option>
+                          </select>
+                        </div>
+                      </div>
           <div class="row margin-bottom">
             <div class="col-md-8 margin-bottom">
               <label><ruby>邮箱地址<!--（方便您获得姓名证书）--></ruby></label>
@@ -261,47 +258,44 @@ include 'includes/header.php';
               <input type="text" class="form-control input-lg" placeholder="输入你的中文名字"/>
             </div>
             <div class="col-md-4 gender-choice margin-bottom">
-              <label for="gender" style="display:block;">
-                <ruby>性别</ruby>
-              </label>
-               <select class="cs-select cs-skin-elastic" name="gender" id="gender" size="1">
-               <span class="caret"></span>
-                <option value="male"><ruby>男</ruby></option>
-                <option value="female"><ruby>女</ruby></option>
-              </select>
-            </div>
-          </div>
-          <div class="row margin-bottom">
-            <div class="col-md-6 margin-bottom">
-              <label>
-                <ruby>生日</ruby>
-              </label>
-              <input type="text" id="datepicker2" class="form-control input-lg" placeholder="输入你的生日"/>
-            </div>
-            <div class="col-md-6 margin-bottom">
-              <label>
-                <ruby>我想要一个XX国家的名字</ruby>
-              </label>
-              <select class="cs-select cs-skin-elastic" name="country">
-                <span class="caret"></span>
-                <option value="" disabled selected>
-                <ruby>国家</ruby>
-                </option>
-                <option value="usa" data-class="flag-usa">
-                <ruby>美国</ruby>
-                </option>
-                <option value="canada" data-class="flag-canada">
-                <ruby>加国</ruby>
-                </option>
-                <option value="england" data-class="flag-england">
-                <ruby>英国</ruby>
-                </option>
-                <option value="australia" data-class="flag-australia">
-                <ruby>澳洲</ruby>
-                </option>
-              </select>
-            </div>
-          </div>
+                          <label for="gender" style="display:block;">
+                            <ruby>性别</ruby>
+                          </label>
+                           <select class="cs-select cs-skin-elastic" name="gender" id="gender" size="1">
+                           <span class="caret"></span>
+                            <option value="male"><ruby>男</ruby></option>
+                            <option value="female"><ruby>女</ruby></option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row margin-bottom">
+                        <div class="col-md-6 margin-bottom">
+                          <label>
+                            <ruby>生日</ruby>
+                          </label>
+                          <input type="text" id="datepicker2" class="form-control input-lg" placeholder="输入你的生日"/>
+                        </div>
+                        <div class="col-md-6 margin-bottom">
+                          <label>
+                            <ruby>我想要一个XX国家的名字</ruby>
+                          </label>
+                          <select class="cs-select cs-skin-elastic" name="country">
+                            <span class="caret"></span>
+                            <option value="us" data-class="flag-usa">
+                            <ruby>美国</ruby>
+                            </option>
+                            <option value="ca" data-class="flag-canada">
+                            <ruby>加国</ruby>
+                            </option>
+                            <option value="gb" data-class="flag-england">
+                            <ruby>英国</ruby>
+                            </option>
+                            <option value="au" data-class="flag-australia">
+                            <ruby>澳洲</ruby>
+                            </option>
+                          </select>
+                        </div>
+                      </div>
           <div class="row margin-bottom">
             <div class="col-md-8 margin-bottom">
               <label>
@@ -388,12 +382,11 @@ include 'includes/header.php';
               </div>
             </div>
           </div>
-          <div class="row row-centered"> <a href="#formscroll">
-             <button type="submit" value="Generate" class="submit-button type-buttons">
-							<ruby>立刻获得你的英文名字!
-</ruby>
+          <div class="row row-centered">
+            <button type="submit" class="submit-button">
+      <ruby>立刻获得你的英文名字!</ruby>
             </button>
-            </a> </div>
+          </div>
         </form>
       </div>
       <div class="engname-form type-div" id="payment3">
@@ -427,47 +420,44 @@ include 'includes/header.php';
               <input type="text" class="form-control input-lg" placeholder="输入你的中文名字"/>
             </div>
             <div class="col-md-4 gender-choice margin-bottom">
-              <label for="gender" style="display:block;">
-                <ruby>性别</ruby>
-              </label>
-              <select class="cs-select cs-skin-elastic" name="gender" id="gender" size="1">
-               <span class="caret"></span>
-                <option value="male"><ruby>男</ruby></option>
-                <option value="female"><ruby>女</ruby></option>
-              </select>
-            </div>
-          </div>
-          <div class="row margin-bottom">
-            <div class="col-md-6 margin-bottom">
-              <label>
-                <ruby>生日</ruby>
-              </label>
-              <input type="text" id="datepicker3" class="form-control input-lg" placeholder="输入你的生日"/>
-            </div>
-            <div class="col-md-6 margin-bottom">
-              <label>
-                <ruby>我想要一个XX国家的名字</ruby>
-              </label>
-              <select class="cs-select cs-skin-elastic" name="country">
-                <span class="caret"></span>
-                <option value="" disabled selected>
-                <ruby>国家</ruby>
-                </option>
-                <option value="usa" data-class="flag-usa">
-                <ruby>美国</ruby>
-                </option>
-                <option value="canada" data-class="flag-canada">
-                <ruby>加国</ruby>
-                </option>
-                <option value="england" data-class="flag-england">
-                <ruby>英国</ruby>
-                </option>
-                <option value="australia" data-class="flag-australia">
-                <ruby>澳洲</ruby>
-                </option>
-              </select>
-            </div>
-          </div>
+                          <label for="gender" style="display:block;">
+                            <ruby>性别</ruby>
+                          </label>
+                          <select class="cs-select cs-skin-elastic" name="gender" id="gender" size="1">
+                           <span class="caret"></span>
+                            <option value="male"><ruby>男</ruby></option>
+                            <option value="female"><ruby>女</ruby></option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row margin-bottom">
+                        <div class="col-md-6 margin-bottom">
+                          <label>
+                            <ruby>生日</ruby>
+                          </label>
+                          <input type="text" id="datepicker3" class="form-control input-lg" placeholder="输入你的生日"/>
+                        </div>
+                        <div class="col-md-6 margin-bottom">
+                          <label>
+                            <ruby>我想要一个XX国家的名字</ruby>
+                          </label>
+                          <select class="cs-select cs-skin-elastic" name="country">
+                            <span class="caret"></span>
+                            <option value="us" data-class="flag-usa">
+                            <ruby>美国</ruby>
+                            </option>
+                            <option value="ca" data-class="flag-canada">
+                            <ruby>加国</ruby>
+                            </option>
+                            <option value="gb" data-class="flag-england">
+                            <ruby>英国</ruby>
+                            </option>
+                            <option value="au" data-class="flag-australia">
+                            <ruby>澳洲</ruby>
+                            </option>
+                          </select>
+                        </div>
+                      </div>
           <div class="row margin-bottom">
             <div class="col-md-8 margin-bottom">
               <label>
@@ -554,12 +544,11 @@ include 'includes/header.php';
               </div>
             </div>
           </div>
-          <div class="row row-centered"> <a href="#formscroll">
+          <div class="row row-centered">
             <button type="submit" value="Generate" class="submit-button type-buttons">
-							<ruby>立刻获得你的英文名字!
-</ruby>
+      <ruby>立刻获得你的英文名字!</ruby>
             </button>
-            </a> </div>
+          </div>
         </form>
       </div>
       <div class="engname-form type-div" id="payment4">
@@ -592,47 +581,44 @@ include 'includes/header.php';
               <input type="text" class="form-control input-lg" placeholder="输入你的中文名字"/>
             </div>
             <div class="col-md-4 gender-choice margin-bottom">
-              <label for="gender" style="display:block;">
-                <ruby>性别</ruby>
-              </label>
-             <select class="cs-select cs-skin-elastic" name="gender" id="gender" size="1">
-               <span class="caret"></span>
-                <option value="male"><ruby>男</ruby></option>
-                <option value="female"><ruby>女</ruby></option>
-              </select>
-            </div>
-          </div>
-          <div class="row margin-bottom">
-            <div class="col-md-6 margin-bottom">
-              <label>
-                <ruby>生日</ruby>
-              </label>
-              <input type="text" id="datepicker4" class="form-control input-lg" placeholder="输入你的生日"/>
-            </div>
-            <div class="col-md-6 margin-bottom">
-              <label>
-                <ruby>我想要一个XX国家的名字</ruby>
-              </label>
-              <select class="cs-select cs-skin-elastic">
-                <span class="caret"></span>
-                <option value="" disabled selected>
-                <ruby>国家</ruby>
-                </option>
-                <option value="usa" data-class="flag-usa">
-                <ruby>美国</ruby>
-                </option>
-                <option value="canada" data-class="flag-canada">
-                <ruby>加国</ruby>
-                </option>
-                <option value="england" data-class="flag-england">
-                <ruby>英国</ruby>
-                </option>
-                <option value="australia" data-class="flag-australia">
-                <ruby>澳洲</ruby>
-                </option>
-              </select>
-            </div>
-          </div>
+                          <label for="gender" style="display:block;">
+                            <ruby>性别</ruby>
+                          </label>
+                         <select class="cs-select cs-skin-elastic" name="gender" id="gender" size="1">
+                           <span class="caret"></span>
+                            <option value="male"><ruby>男</ruby></option>
+                            <option value="female"><ruby>女</ruby></option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row margin-bottom">
+                        <div class="col-md-6 margin-bottom">
+                          <label>
+                            <ruby>生日</ruby>
+                          </label>
+                          <input type="text" id="datepicker4" class="form-control input-lg" placeholder="输入你的生日"/>
+                        </div>
+                        <div class="col-md-6 margin-bottom">
+                          <label>
+                            <ruby>我想要一个XX国家的名字</ruby>
+                          </label>
+                          <select class="cs-select cs-skin-elastic" name="country">
+                            <span class="caret"></span>
+                            <option value="us" data-class="flag-usa">
+                            <ruby>美国</ruby>
+                            </option>
+                            <option value="ca" data-class="flag-canada">
+                            <ruby>加国</ruby>
+                            </option>
+                            <option value="gb" data-class="flag-england">
+                            <ruby>英国</ruby>
+                            </option>
+                            <option value="au" data-class="flag-australia">
+                            <ruby>澳洲</ruby>
+                            </option>
+                          </select>
+                        </div>
+                      </div>
           <div class="row margin-bottom">
             <div class="col-md-8 margin-bottom">
               <label>
@@ -719,12 +705,11 @@ include 'includes/header.php';
               </div>
             </div>
           </div>
-          <div class="row row-centered"> <a href="#formscroll">
+          <div class="row row-centered">
             <button type="submit" value="Generate" class="submit-button type-buttons">
-							<ruby>立刻获得你的英文名字!
-</ruby>
+      <ruby>立刻获得你的英文名字!</ruby>
             </button>
-            </a> </div>
+          </div>
         </form>
         
       </div>

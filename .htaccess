@@ -1,0 +1,38 @@
+# Enable rewrite engine
+RewriteEngine On
+
+# Set base directory
+# RewriteBase /
+
+# Handle PHP files
+AddHandler application/x-httpd-php .php
+
+# Set default index files
+DirectoryIndex index.php index.html
+
+# Allow access to all directories needed by the site
+<IfModule mod_authz_core.c>
+    <Directory "/">
+        Require all granted
+    </Directory>
+</IfModule>
+
+# Ensure proper MIME types
+AddType application/javascript .js
+AddType text/css .css
+AddType image/svg+xml .svg
+
+# Handle errors
+ErrorDocument 404 /index.php
+
+# Prevent directory listings
+Options -Indexes
+
+# Handle requests for non-existent files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# Force HTTPS (uncomment if SSL is configured)
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
