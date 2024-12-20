@@ -107,9 +107,9 @@ include 'includes/header.php';
             <div class="col-md-4 gender-choice margin-bottom">
                           <label for="gender" style="display:block;"><ruby>性别</ruby></label>
                           <select class="cs-select cs-skin-elastic" name="gender" id="gender" size="1">
-                           <span class="caret"></span>
-                            <option value="male"><ruby>男</ruby></option>
-                            <option value="female"><ruby>女</ruby></option>
+                              <span class="caret"></span>
+                              <option value="male"><i class="fa fa-male" aria-hidden="true"></i><ruby>男</ruby></option>
+                              <option value="female"><i class="fa fa-female" aria-hidden="true"></i><ruby>女</ruby></option>
                           </select>
                         </div>
                       </div>
@@ -155,35 +155,29 @@ include 'includes/header.php';
             <div class="row row-centered trait-choice">
               <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <button type="button" id="##">
-									<i class="fa fa-graduation-cap fa-2x trait-choices" aria-hidden="true">
-										<center><ruby>聪明</ruby></center>
-									</i>
-								</button>
+                    <i class="fa fa-graduation-cap fa-2x trait-choices" aria-hidden="true"></i>
+                        <center><ruby>聪明</ruby></center>
+                </button>
                 <button type="button" id="##">
-									<i class="fa fa-gavel fa-2x trait-choices" aria-hidden="true">
-										<center><ruby>具有正义感的</ruby></center>
-									</i>
-								</button>
+                    <i class="fa fa-gavel fa-2x trait-choices" aria-hidden="true"></i>
+                    <center><ruby>具有正义感的</ruby></center>
+                </button>
                 <button type="button" id="##">
-									<i class="fa fa-smile-o fa-2x trait-choices" aria-hidden="true">
-										<center><ruby>热心的</ruby></center>
-									</i>
-								</button>
+                    <i class="fa fa-smile-o fa-2x trait-choices" aria-hidden="true"></i>
+                    <center><ruby>热心的</ruby></center>
+                </button>
                 <button type="button" id="##">
-									<i class="fa fa-book fa-2x trait-choices" aria-hidden="true">
-										<center><ruby>实干的</ruby></center>
-									</i>
-								</button>
+                    <i class="fa fa-book fa-2x trait-choices" aria-hidden="true"></i>
+                    <center><ruby>实干的</ruby></center>
+                </button>
                 <button type="button" id="##">
-									<i class="fa fa-heart fa-2x trait-choices" aria-hidden="true">
-										<center><ruby>浪漫的</ruby></center>
-									</i>
-								</button>
+                    <i class="fa fa-heart fa-2x trait-choices" aria-hidden="true"></i>
+                    <center><ruby>浪漫的</ruby></center>
+                </button>
                 <button type="button" id="##">
-									<i class="fa fa-lightbulb-o fa-2x trait-choices" aria-hidden="true">
-										<center><ruby>博学多才的</ruby></center>
-									</i>
-								</button>
+                    <i class="fa fa-lightbulb-o fa-2x trait-choices" aria-hidden="true"></i>
+                    <center><ruby>博学多才的</ruby></center>
+                </button>
               </div>
               <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <button type="button" id="##">
