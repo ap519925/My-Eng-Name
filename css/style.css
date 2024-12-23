@@ -13,7 +13,72 @@ body, html {
 	box-sizing: border-box;
 }
 ruby {
-	font-family: 'Noto Sans SC', sans-serif;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.fa-wechat center ruby {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 2.5em;
+    color: #2d404f;
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    animation: nameAppear 0.5s ease-out;
+}
+
+.fa-wechat center ruby:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    color: #53a7fb;
+}
+
+@keyframes nameAppear {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Styles for the generated name */
+.fa-wechat center ruby {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 2.5em;
+    color: #2d404f;
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    animation: nameAppear 0.5s ease-out;
+}
+
+.fa-wechat center ruby:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    color: #53a7fb;
+}
+
+@keyframes nameAppear {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 .col-xs-6 {
 	padding:0px;
@@ -179,7 +244,6 @@ ruby {
 	margin-top:5px!important;
 }
 .payment-choices {
-	width:150px;
 	color:#fff;
 	padding-top:10px;
 	padding-bottom:10px;
@@ -201,7 +265,7 @@ ruby {
 	background:#3b7bbf;
 }
 .wechatpay{
-	background:#8dd64f;
+	
 	border-radius:6px;
 }
 
@@ -650,7 +714,7 @@ main[role="main-home-wrapper"], main[role="main-inner-wrapper"] {
 	padding-bottom: 30px
 }
 main[role="main-home-wrapper"] {
-	padding-left: 41px
+
 }
 main[role="main-home-wrapper"] header, main[role="main-inner-wrapper"] header {
 	

@@ -80,7 +80,7 @@ include 'includes/header.php';
     <div id="people-types">
       <div class="engname-form type-div" id="payment1">
         <h2 class="center-head modal-header">
-          <ruby class="options-header"><名字</ruby>
+          <ruby class="options-header">名字</ruby>
         </h2>
         <div class="form-payment">
           <div class="row-centered">
@@ -137,16 +137,18 @@ include 'includes/header.php';
                           </select>
                         </div>
                       </div>
+          <!-- Temporarily commented out email and photo upload
           <div class="row margin-bottom">
             <div class="col-md-8 margin-bottom">
-              <label><ruby>邮箱地址<!--（方便您获得姓名证书）--></ruby></label>
+              <label><ruby>邮箱地址</ruby></label>
               <input type="email" class="form-control input-lg" placeholder="输入你的邮箱地址l"/>
             </div>
             <div class="col-md-4 margin-bottom">
-              <label><ruby>上传您的照片<!--（将会显示在姓名证书上）--></ruby></label>
+              <label><ruby>上传您的照片</ruby></label>
               <input type="file" id="uploadfiles" multiple/>
             </div>
           </div>
+          -->
           <h2 class="center-head">
             <ruby class="options-header" style="background:none;">请选择五个适合您的特征：</ruby>
           </h2>
@@ -163,7 +165,7 @@ include 'includes/header.php';
                     <center><ruby>具有正义感的</ruby></center>
                 </button>
                 <button type="button" id="##">
-                    <i class="fa fa-smile-o fa-2x trait-choices" aria-hidden="true"></i>
+                    <i class="fa-solid fa-face-smile fa-2x trait-choices" aria-hidden="true"></i>
                     <center><ruby>热心的</ruby></center>
                 </button>
                 <button type="button" id="##">
@@ -175,7 +177,7 @@ include 'includes/header.php';
                     <center><ruby>浪漫的</ruby></center>
                 </button>
                 <button type="button" id="##">
-                    <i class="fa fa-lightbulb-o fa-2x trait-choices" aria-hidden="true"></i>
+                    <i class="fa-solid fa-lightbulb fa-2x trait-choices" aria-hidden="true"></i>
                     <center><ruby>博学多才的</ruby></center>
                 </button>
               </div>
@@ -196,7 +198,7 @@ include 'includes/header.php';
 									</i>
 								</button>
                 <button type="button" id="##">
-									<i class="fa fa-hand-peace-o fa-2x trait-choices" aria-hidden="true">
+									<i class="fa-solid fa-peace fa-2x trait-choices" aria-hidden="true">
 										<center><ruby>和平主义者</ruby></center>
 									</i>
 								</button>
@@ -206,7 +208,7 @@ include 'includes/header.php';
 									</i>
 								</button>
                 <button type="button" id="##">
-									<i class="fa fa-hand-lizard-o fa-2x trait-choices" aria-hidden="true">
+									<i class="fa-solid fa-face-grin-tears fa-2x trait-choices" aria-hidden="true">
 										<center><ruby>幽默的</ruby></center>
 									</i>
 								</button>
@@ -225,7 +227,7 @@ include 'includes/header.php';
       </div>
       <div class="engname-form type-div" id="payment2">
        <h2 class="center-head modal-header">
-          <ruby class="options-header"><名字</ruby>
+          <ruby class="options-header">名字</ruby>
         </h2>
         <div class="form-payment">
           <div class="row-centered">
@@ -290,20 +292,22 @@ include 'includes/header.php';
                           </select>
                         </div>
                       </div>
+          <!-- Temporarily commented out email and photo upload
           <div class="row margin-bottom">
             <div class="col-md-8 margin-bottom">
               <label>
-                <ruby>邮箱地址<!--（方便您获得姓名证书）--></ruby>
+                <ruby>邮箱地址</ruby>
               </label>
               <input type="email" class="form-control input-lg" placeholder="输入你的邮箱地址l"/>
             </div>
             <div class="col-md-4 margin-bottom">
               <label>
-                <ruby>上传您的照片<!--（将会显示在姓名证书上）--></ruby>
+                <ruby>上传您的照片</ruby>
               </label>
               <input type="file" id="uploadfiles" multiple/>
             </div>
           </div>
+          -->
           <h2 class="center-head">
             <ruby class="options-header" style="background:none;">请选择五个适合您的特征：</ruby>
           </h2>
@@ -322,7 +326,7 @@ include 'includes/header.php';
                   </i>
                 </button>
                 <button type="button" id="##">
-                  <i class="fa fa-smile-o fa-2x trait-choices" aria-hidden="true">
+                  <i class="fa-solid fa-face-smile fa-2x trait-choices" aria-hidden="true">
                     <center><ruby>热心的</ruby></center>
                   </i>
                 </button>
@@ -337,7 +341,7 @@ include 'includes/header.php';
                   </i>
                 </button>
                 <button type="button" id="##">
-                  <i class="fa fa-lightbulb-o fa-2x trait-choices" aria-hidden="true">
+                  <i class="fa-solid fa-lightbulb fa-2x trait-choices" aria-hidden="true">
                     <center><ruby>博学多才的</ruby></center>
                   </i>
                 </button>
@@ -359,7 +363,7 @@ include 'includes/header.php';
                   </i>
                 </button>
                 <button type="button" id="##">
-                  <i class="fa fa-hand-peace-o fa-2x trait-choices" aria-hidden="true">
+                  <i class="fa-solid fa-peace fa-2x trait-choices" aria-hidden="true">
                     <center><ruby>和平主义者</ruby></center>
                   </i>
                 </button>
@@ -369,7 +373,7 @@ include 'includes/header.php';
                   </i>
                 </button>
                 <button type="button" id="##">
-                  <i class="fa fa-hand-lizard-o fa-2x trait-choices" aria-hidden="true">
+                  <i class="fa-solid fa-face-grin-tears fa-2x trait-choices" aria-hidden="true">
                     <center><ruby>幽默的</ruby></center>
                   </i>
                 </button>
@@ -385,7 +389,7 @@ include 'includes/header.php';
       </div>
       <div class="engname-form type-div" id="payment3">
         <h2 class="center-head modal-header">
-          <ruby class="options-header"><名字</ruby>
+          <ruby class="options-header">名字</ruby>
         </h2>
         <div class="form-payment">
           <div class="row-centered">
@@ -419,8 +423,8 @@ include 'includes/header.php';
                           </label>
                           <select class="cs-select cs-skin-elastic" name="gender" id="gender" size="1">
                            <span class="caret"></span>
-                            <option value="male"><ruby>男</ruby></option>
-                            <option value="female"><ruby>女</ruby></option>
+                            <option value="male"><ruby>男</ruby><i class="fa-solid fa-mars-stroke-up"></i></option>
+                            <option value="female"><ruby>女</ruby><i class="fa-solid fa-venus"></i></option>
                           </select>
                         </div>
                       </div>
@@ -452,20 +456,22 @@ include 'includes/header.php';
                           </select>
                         </div>
                       </div>
+          <!-- Temporarily commented out email and photo upload
           <div class="row margin-bottom">
             <div class="col-md-8 margin-bottom">
               <label>
-                <ruby>邮箱地址<!--（方便您获得姓名证书）--></ruby>
+                <ruby>邮箱地址</ruby>
               </label>
               <input type="email" class="form-control input-lg" placeholder="输入你的邮箱地址l"/>
             </div>
             <div class="col-md-4 margin-bottom">
               <label>
-                <ruby>上传您的照片<!--（将会显示在姓名证书上）--></ruby>
+                <ruby>上传您的照片</ruby>
               </label>
               <input type="file" id="uploadfiles" multiple/>
             </div>
           </div>
+          -->
           <h2 class="center-head">
             <ruby class="options-header" style="background:none;">请选择五个适合您的特征：</ruby>
           </h2>
@@ -484,7 +490,7 @@ include 'includes/header.php';
                   </i>
                 </button>
                 <button type="button" id="##">
-                  <i class="fa fa-smile-o fa-2x trait-choices" aria-hidden="true">
+                  <i class="fa-solid fa-face-smile fa-2x trait-choices" aria-hidden="true">
                     <center><ruby>热心的</ruby></center>
                   </i>
                 </button>
@@ -499,7 +505,7 @@ include 'includes/header.php';
                   </i>
                 </button>
                 <button type="button" id="##">
-                  <i class="fa fa-lightbulb-o fa-2x trait-choices" aria-hidden="true">
+                  <i class="fa-solid fa-lightbulb fa-2x trait-choices" aria-hidden="true">
                     <center><ruby>博学多才的</ruby></center>
                   </i>
                 </button>
@@ -521,7 +527,7 @@ include 'includes/header.php';
                   </i>
                 </button>
                 <button type="button" id="##">
-                  <i class="fa fa-hand-peace-o fa-2x trait-choices" aria-hidden="true">
+                  <i class="fa-solid fa-peace fa-2x trait-choices" aria-hidden="true">
                     <center><ruby>和平主义者</ruby></center>
                   </i>
                 </button>
@@ -531,7 +537,7 @@ include 'includes/header.php';
                   </i>
                 </button>
                 <button type="button" id="##">
-                  <i class="fa fa-hand-lizard-o fa-2x trait-choices" aria-hidden="true">
+                  <i class="fa-solid fa-face-grin-tears fa-2x trait-choices" aria-hidden="true">
                     <center><ruby>幽默的</ruby></center>
                   </i>
                 </button>
@@ -547,7 +553,7 @@ include 'includes/header.php';
       </div>
       <div class="engname-form type-div" id="payment4">
         <h2 class="center-head modal-header">
-          <ruby class="options-header"><名字</ruby>
+          <ruby class="options-header">名字</ruby>
         </h2>
         <div class="form-payment">
           <div class="row-centered">
@@ -575,24 +581,22 @@ include 'includes/header.php';
               <input type="text" class="form-control input-lg" placeholder="输入你的中文名字"/>
             </div>
             <div class="col-md-4 gender-choice margin-bottom">
-                          <label for="gender" style="display:block;">
-                            <ruby>性别</ruby>
-                          </label>
-                         <select class="cs-select cs-skin-elastic" name="gender" id="gender" size="1">
-                           <span class="caret"></span>
-                            <option value="male"><ruby>男</ruby></option>
-                            <option value="female"><ruby>女</ruby></option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="row margin-bottom">
-                        <div class="col-md-6 margin-bottom">
-                          <label>
-                            <ruby>生日</ruby>
-                          </label>
-                          <input type="text" id="datepicker4" class="form-control input-lg" placeholder="输入你的生日"/>
-                        </div>
-                        <div class="col-md-6 margin-bottom">
+              <label for="gender" style="display:block;">
+                <ruby>性别</ruby>
+              </label>
+              <select class="cs-select cs-skin-elastic" name="gender" id="gender" size="1">
+                <span class="caret"></span>
+                  <option value="male"><ruby>男</ruby></option>
+                  <option value="female"><ruby>女</ruby></option>
+              </select>
+            </div>
+          </div>
+          <div class="row margin-bottom">
+            <div class="col-md-6 margin-bottom">
+              <label><ruby>生日</ruby></label>
+              <input type="text" id="datepicker4" class="form-control input-lg" placeholder="输入你的生日"/>
+            </div>
+             <div class="col-md-6 margin-bottom">
                           <label>
                             <ruby>我想要一个XX国家的名字</ruby>
                           </label>
@@ -613,20 +617,22 @@ include 'includes/header.php';
                           </select>
                         </div>
                       </div>
+          <!-- Temporarily commented out email and photo upload
           <div class="row margin-bottom">
             <div class="col-md-8 margin-bottom">
               <label>
-                <ruby>邮箱地址<!--（方便您获得姓名证书）--></ruby>
+                <ruby>邮箱地址</ruby>
               </label>
               <input type="email" class="form-control input-lg" placeholder="输入你的邮箱地址l"/>
             </div>
             <div class="col-md-4 margin-bottom">
               <label>
-                <ruby>上传您的照片<!--（将会显示在姓名证书上）--></ruby>
+                <ruby>上传您的照片</ruby>
               </label>
               <input type="file" id="uploadfiles" multiple/>
             </div>
           </div>
+          -->
           <h2 class="center-head">
             <ruby class="options-header" style="background:none;">请选择五个适合您的特征：</ruby>
           </h2>
@@ -645,7 +651,7 @@ include 'includes/header.php';
                   </i>
                 </button>
                 <button type="button" id="##">
-                  <i class="fa fa-smile-o fa-2x trait-choices" aria-hidden="true">
+                  <i class="fa-solid fa-face-smile fa-2x trait-choices" aria-hidden="true">
                     <center><ruby>热心的</ruby></center>
                   </i>
                 </button>
@@ -660,7 +666,7 @@ include 'includes/header.php';
                   </i>
                 </button>
                 <button type="button" id="##">
-                  <i class="fa fa-lightbulb-o fa-2x trait-choices" aria-hidden="true">
+                  <i class="fa-solid fa-lightbulb fa-2x trait-choices" aria-hidden="true">
                     <center><ruby>博学多才的</ruby></center>
                   </i>
                 </button>
@@ -682,7 +688,7 @@ include 'includes/header.php';
                   </i>
                 </button>
                 <button type="button" id="##">
-                  <i class="fa fa-hand-peace-o fa-2x trait-choices" aria-hidden="true">
+                  <i class="fa-solid fa-peace fa-2x trait-choices" aria-hidden="true">
                     <center><ruby>和平主义者</ruby></center>
                   </i>
                 </button>
@@ -692,7 +698,7 @@ include 'includes/header.php';
                   </i>
                 </button>
                 <button type="button" id="##">
-                  <i class="fa fa-hand-lizard-o fa-2x trait-choices" aria-hidden="true">
+                  <i class="fa-solid fa-face-grin-tears fa-2x trait-choices" aria-hidden="true">
                     <center><ruby>幽默的</ruby></center>
                   </i>
                 </button>
@@ -760,9 +766,6 @@ include 'includes/header.php';
     <ul>
       <li><a href="index.html" title="Work">
         <ruby>首页</ruby>
-        </a></li>
-      <li class="nav-active"><a href="about.html" title="About">
-        <ruby>关于我们</ruby>
         </a></li>
       <li><a href="contact.html" title="Contact">
         <ruby>联系我们</ruby>

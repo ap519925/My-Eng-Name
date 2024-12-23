@@ -13,7 +13,7 @@ $(document).ready(function(){
     var datepickerOptions = {
         changeMonth: true,
         changeYear: true,
-        yearRange: "1900:2023",
+        yearRange: "1930:2024",
         dateFormat: "yy/mm/dd",
         onSelect: function(dateText, inst) {
             $(this).val(dateText);
@@ -72,13 +72,26 @@ $(document).ready(function(){
             success: function(response) {
                 console.log('Received response:', response);
                 
+                // Get selected country for display
+                var countrySelect = form.find('select[name="country"]');
+                var selectedCountry = countrySelect.find('option:selected').text().trim();
+                
                 // Find the closest payment div and update it
-                var paymentDiv = $('#payment' + (formType === 'baby' ? '1' : 
-                                               formType === 'student' ? '2' : 
+                var paymentDiv = $('#payment' + (formType === 'baby' ? '1' :
+                                               formType === 'student' ? '2' :
                                                formType === 'professional' ? '3' : '4'));
                 
                 console.log('Updating payment div:', paymentDiv.attr('id'));
-                paymentDiv.find('.fa-wechat center ruby').text(response);
+                
+                // Update the display with both name and country
+                var displayText = response + ' (' + selectedCountry + ' 风格)';
+                var nameElement = paymentDiv.find('.fa-wechat center ruby');
+                nameElement.text(displayText);
+                
+                // Reset animation by removing and re-adding the element
+                nameElement.css('animation', 'none');
+                nameElement[0].offsetHeight; // Trigger reflow
+                nameElement.css('animation', '');
                 
                 // Hide form and show payment div
                 form.closest('.type-div').hide();
@@ -88,6 +101,11 @@ $(document).ready(function(){
                 $('html, body').animate({
                     scrollTop: paymentDiv.offset().top
                 }, 700);
+                
+                // Add success message
+                var successMsg = $('<div class="alert alert-success text-center" style="margin-top: 15px;">' +
+                                 '<ruby>您的' + selectedCountry + '风格英文名字已生成！</ruby></div>');
+                paymentDiv.find('.payment-choice').append(successMsg);
             },
             error: function(xhr, status, error) {
                 console.error('AJAX Error:', status, error);
