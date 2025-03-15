@@ -2,7 +2,7 @@
 $(".type-buttons").click(function(){
     var button_id = this.id;
     var div_id = button_id.substr(0, button_id.indexOf('_')).trim();
-    $("#"+div_id).show();
+    $("#"+div_id).fadeIn(500); // Fade in effect
     $(".type-div:not(#" + div_id +")").hide();
 });
 
@@ -95,7 +95,7 @@ $(document).ready(function(){
                 
                 // Hide form and show payment div
                 form.closest('.type-div').hide();
-                paymentDiv.show();
+                paymentDiv.fadeIn(500); // Fade in effect
                 
                 // Scroll to payment div
                 $('html, body').animate({
